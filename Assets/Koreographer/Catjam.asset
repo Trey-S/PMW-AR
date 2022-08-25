@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2076007791, guid: aa81bbec85a3f423193272a7c6154986, type: 3}
+  m_Name: Catjam
+  m_EditorClassIdentifier: 
+  mSourceClip: {fileID: 8300000, guid: 023b52b66d304314ca334065eee4dcf3, type: 3}
+  mAudioFilePath: 
+  mSampleRate: 44100
+  mIgnoreLatencyOffset: 0
+  mTempoSections:
+  - sectionName: Silence
+    startSample: 0
+    samplesPerBeat: 22050
+    beatsPerMeasure: 4
+    bStartNewMeasure: 1
+  - sectionName: Song
+    startSample: 4281
+    samplesPerBeat: 26198.019801980197
+    beatsPerMeasure: 4
+    bStartNewMeasure: 1
+  mTracks:
+  - {fileID: 11400000, guid: b7ecfa308d71e04428a5977e7ab47e69, type: 2}
+  - {fileID: 11400000, guid: 492c6ac43353a0b4394d9aaa40a22aa1, type: 2}
+  - {fileID: 11400000, guid: dea36a032318ceb48a3dd3b71963e764, type: 2}
+  - {fileID: 11400000, guid: 4c3e9322bb8f0724589e3197071f2482, type: 2}
+  - {fileID: 11400000, guid: 5151dfc58c74bf1488bfc624c5fd0d0e, type: 2}
+  - {fileID: 11400000, guid: 301bd32336e6bfc479e975ce6b188d9b, type: 2}
+  - {fileID: 11400000, guid: f5f850882fe61654eac13a789e3ea80c, type: 2}
+  - {fileID: 11400000, guid: df99754cc5cf9e34a8d82c1c8f40e0bc, type: 2}
+  - {fileID: 11400000, guid: 2aae82a64445eb245bf3ce91a8a1a61a, type: 2}
+  - {fileID: 11400000, guid: c512fc11e2f10944f967e5f4925d160d, type: 2}
+  - {fileID: 11400000, guid: 45c39635e2addcb49aec58dec6d6b914, type: 2}
+  - {fileID: 11400000, guid: d5fe1977401e3a4478c195e671d4b393, type: 2}
