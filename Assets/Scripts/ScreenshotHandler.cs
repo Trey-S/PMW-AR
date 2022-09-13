@@ -1,8 +1,8 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ScreenshotHandler : MonoBehaviour
+public class ScreenshotHandler : MonoBehaviour //Taking Pictures of screen.
 {
     private Camera camera;
     private bool takeScreenshot;

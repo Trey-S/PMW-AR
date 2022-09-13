@@ -10,7 +10,7 @@ public class RotateObject : MonoBehaviour //Rotate Object at runtime
     public float zRotationSpeed = 0f;
 
     [EventID]
-	public string change_ySpeedEvent;
+	public string change_ySpeedEvent; //Event ID for changing speed of rotation.
 
     private void Awake() {
         Koreographer.Instance.RegisterForEvents(change_ySpeedEvent, ChangeYSpeed);

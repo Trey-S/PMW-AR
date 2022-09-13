@@ -4,13 +4,14 @@ using UnityEngine;
 
 namespace SonicBloom.Koreo
 {
-public class HideShowGameObjects : MonoBehaviour //Hide or Show Koreographer game objects
+public class HideShowGameObjects : MonoBehaviour //Hide or Show Gameobjects
 {
-    enum ObjectInteraction {Random, Straight, ShowAll};
+    enum ObjectInteraction {Random, Straight, ShowAll}; // How are we going to turn off and on game objects
     [SerializeField] ObjectInteraction objectInteraction;
 
     public int FramesPerTurn = 0;
 
+    //What type event IDs do we need to look for.
     [EventID]
 	public string eventIDTurnOn;
     [EventID]
@@ -43,7 +44,7 @@ public class HideShowGameObjects : MonoBehaviour //Hide or Show Koreographer gam
 
         endRange = objects.Length;
 
-        if(startIndex != -1){
+        if(startIndex != -1){ //if for some reason we want to start at a diffrent part of the array.
             startRange = startIndex;
         }
 
