@@ -59,6 +59,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -90,9 +92,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -396,6 +401,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      PMW_Outline: 290529396924672760
+      HandsOpen: -5901193442633455707
+      Willro: -6843066476469027663
+      Cheeto: -7386975943236211240
+      WubCubs: 5476978997986559470
+      HandsClosed: -1128149222435480458
+      CheetoDead: -1017287601360582270
+      Instagram: 1541367364232269778
+      PMW_Pin: 7609558933720900735
+      Twitch: -2755723153335100924
+      Replay: -3651463457093139413
+      PayPal: -736837006555198861
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

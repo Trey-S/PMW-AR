@@ -68,6 +68,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -99,9 +101,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -492,6 +497,22 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      CatJame_SpriteSheet_14: 5765656826227352816
+      CatJame_SpriteSheet_1: 6563580655630201505
+      CatJame_SpriteSheet_11: 3675464085556901381
+      CatJame_SpriteSheet_3: 8634854382966297710
+      CatJame_SpriteSheet_7: 454256630634477500
+      CatJame_SpriteSheet_5: -3318935803945694413
+      CatJame_SpriteSheet_8: -1543907530750510092
+      CatJame_SpriteSheet_6: 5200241559266527034
+      CatJame_SpriteSheet_10: 1662118230683039623
+      CatJame_SpriteSheet_2: 3110001508022773183
+      CatJame_SpriteSheet_4: 3776617841980614655
+      CatJame_SpriteSheet_0: 2057111011400630473
+      CatJame_SpriteSheet_13: 315019332554446036
+      CatJame_SpriteSheet_9: 5129671714076858466
+      CatJame_SpriteSheet_12: 2689612680354663423
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
